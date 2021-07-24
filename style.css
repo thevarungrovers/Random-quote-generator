@@ -1,0 +1,63 @@
+*{
+    font-family: 'STIX Two Math', serif;
+}
+
+.heading-text{
+    text-align: center;
+}
+
+.wrapper{
+    margin: 20% auto 10% auto;
+    padding: 1rem;
+    width: 80vw;
+    text-align: center;
+    box-shadow: -4px 6px 21px 0px rgba(97,91,91,0.61);
+    display: flex;
+    flex-direction: column;
+}
+
+.api-name{
+    border-bottom: 1px solid #b2bec3;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: #0abde3;
+}
+.quote-container{
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    background: rgba( 27, 189, 255, 0.30 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: 22px;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-center{
+    0% {
+                transform: scale(1);
+    }
+    100% {
+                transform: scale(1.05);
+    }
+}
+
+@media screen and (min-width:700px){
+   .wrapper{
+       margin-top: 10%;
+       width: 70vw;
+   }
+}
